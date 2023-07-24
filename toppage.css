@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+
+    background: url(Image/無題492.png);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+img{
+    width: 500px;
+}
+.Logo img{
+    width: 100px !important;
+}
+
+header {
+    height: 75px;
+}
+
+
+.Button {
+    display: flex;
+    justify-content: space-between;
+}
