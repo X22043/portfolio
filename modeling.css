@@ -13,6 +13,16 @@ body {
 ul {
     padding: 5px;
 }
+h1 {
+    margin-bottom: 3px;
+    font-size: 3em;
+}
+hr {
+    margin: 0;
+}
+ul {
+    padding: 5px;
+}
 img{
     width: 50%;
     height: auto;

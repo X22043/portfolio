@@ -10,6 +10,16 @@ body {
     background-size: 100% auto;
 }
 
+ul {
+    padding: 5px;
+}
+h1 {
+    margin-bottom: 3px;
+    font-size: 3em;
+}
+hr {
+    margin: 0;
+}
 img{
     width: 500px;
     border-radius: 15px;
