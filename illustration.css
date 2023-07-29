@@ -12,6 +12,7 @@ body {
 
 ul {
     padding: 5px;
+    list-style: none;
 }
 h1 {
     margin-bottom: 3px;
