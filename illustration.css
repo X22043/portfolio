@@ -13,6 +13,7 @@ body {
 img{
     width: 500px;
     border-radius: 15px;
+    background-color: white;
 }
 .Logo img{
     width: 100px !important;
