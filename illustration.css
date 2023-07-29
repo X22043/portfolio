@@ -16,6 +16,11 @@ img{
     background-color: white;
     border: 80% 80% !important;
 }
+video{
+    width: 60%;
+    border-radius: 10px;
+    height: auto;
+}
 .Logo img{
     width: 100px !important;
 }
