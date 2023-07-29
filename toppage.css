@@ -12,17 +12,20 @@ body {
 
 img{
     width: 500px;
+    border-radius: 15px;
 }
 .Logo img{
     width: 100px !important;
 }
 
 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     height: 75px;
 }
 
 
 .Button {
-    display: flex;
-    justify-content: space-between;
+    font-size: large;
 }
