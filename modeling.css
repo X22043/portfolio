@@ -11,9 +11,14 @@ body {
 }
 
 img{
-    width: 500px;
+    width: 50%;
+    height: auto;
     border-radius: 15px;
     background-color: white;
+}
+video{
+    width: 60%;
+    height: auto;
 }
 .Logo img{
     width: 100px !important;
@@ -24,4 +29,5 @@ header {
     flex-direction: row;
     justify-content: space-between;
     height: 75px;
+    width: 100%;
 }

@@ -14,6 +14,7 @@ img{
     width: 500px;
     border-radius: 15px;
     background-color: white;
+    border: 80% 80% !important;
 }
 .Logo img{
     width: 100px !important;
@@ -24,4 +25,5 @@ header {
     flex-direction: row;
     justify-content: space-between;
     height: 75px;
+    width: 100%;
 }
