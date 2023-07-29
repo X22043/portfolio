@@ -36,3 +36,21 @@ header {
 .Button {
     font-size: 1.5rem;
 }
+
+
+@media (width <= 600px){
+    body{
+        margin: 10px;
+    }
+    ul {
+        padding: 0;
+    }
+
+    .Logo img{
+        width: 50px !important;
+    }
+
+    .Button {
+        font-size: 0.8rem;
+    }
+}
