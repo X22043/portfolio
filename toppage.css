@@ -23,11 +23,16 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     height: 75px;
     width: 100%;
 }
 
+ul{
+    list-style: none;
+}
+
 
 .Button {
-    font-size: large;
+    font-size: 1.5rem;
 }
