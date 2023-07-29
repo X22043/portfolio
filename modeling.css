@@ -10,6 +10,9 @@ body {
     background-size: 100% auto;
 }
 
+ul {
+    padding: 5px;
+}
 img{
     width: 50%;
     height: auto;
@@ -18,6 +21,7 @@ img{
 }
 video{
     width: 60%;
+    border-radius: 10px;
     height: auto;
 }
 .Logo img{
@@ -41,6 +45,10 @@ header {
 @media (width <= 600px){
     body{
         margin: 10px;
+    }
+    header {
+        height: 50px;
+        width: 100%;
     }
     ul {
         padding: 0;

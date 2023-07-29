@@ -38,6 +38,10 @@ header {
     body{
         margin: 10px;
     }
+    header {
+        height: 50px;
+        width: 100%;
+    }
     ul {
         padding: 0;
     }
