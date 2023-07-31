@@ -12,6 +12,8 @@ body {
 
 ul {
     padding: 5px;
+    display: flex;
+    flex-direction: row;
 }
 h1 {
     margin-bottom: 3px;
@@ -20,8 +22,11 @@ h1 {
 hr {
     margin: 0;
 }
+li {
+    width: 60%;
+}
 img{
-    width: 55%;
+    width: 100%;
     border-radius: 15px;
     background-size: cover !important;
 }
@@ -42,6 +47,10 @@ ul{
     list-style: none;
 }
 
+.text {
+    width: 30%;
+    text-align: center;
+}
 
 .Button {
     font-size: 1.2rem;
