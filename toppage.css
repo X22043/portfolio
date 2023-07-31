@@ -30,6 +30,9 @@ img{
     border-radius: 15px;
     background-size: cover !important;
 }
+h3 {
+    font-size: 2rem;
+}
 .Logo img{
     width: 100px !important;
 }
@@ -54,6 +57,10 @@ ul{
 
 .Button {
     font-size: 1.5rem;
+}
+nav {
+    font-size: 2rem;
+    padding: 25px;
 }
 
 @media (width <= 600px){
