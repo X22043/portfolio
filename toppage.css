@@ -48,12 +48,12 @@ ul{
 }
 
 .text {
-    width: 30%;
+    width: 40%;
     text-align: center;
 }
 
 .Button {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 @media (width <= 600px){
@@ -68,7 +68,7 @@ ul{
         padding: 0;
     }
     h1 {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
     .Logo img{
