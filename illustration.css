@@ -13,6 +13,10 @@ body {
 ul {
     padding: 5px;
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
 }
 h1 {
     margin-bottom: 3px;
@@ -22,15 +26,23 @@ hr {
     margin: 0;
 }
 img{
-    width: 500px;
+    width: 300px;
     border-radius: 15px;
     background-color: white;
     border: 80% 80% !important;
 }
-video{
-    width: 60%;
+
+.Movie_one {
+    flex-direction: column !important;
+}
+.Movie_two {
+    flex-direction: column !important;
+}
+li video{
+    padding: 0 10%;
+    width: 80%;
     border-radius: 10px;
-    height: auto;
+    height: 80%;
 }
 .Logo img{
     width: 100px !important;
@@ -48,7 +60,36 @@ header {
 .Button {
     font-size: 1.5rem;
 }
+.AdobeAnim {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.text {
+    padding: 15%;
+    text-align: center;
+    justify-content: center;
+}
 
+.Logos ul {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logos p {
+    text-align: center;
+}
+.Illustrations p {
+    text-align: center;
+}
+.Illustrations ul {
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+}
+.Illustrations ul li p {
+    font-size: small;
+}
 
 @media (width <= 600px){
     body{
@@ -61,6 +102,9 @@ header {
     ul {
         padding: 0;
     }
+    h1 {
+        font-size: 2rem;
+    }
 
     .Logo img{
         width: 50px !important;
@@ -68,5 +112,12 @@ header {
 
     .Button {
         font-size: 0.8rem;
+    }
+    .Illustrations ul {
+        display: grid;
+        grid-template-columns: repeat(2,180px);
+    }
+    img {
+        width: 150px;
     }
 }
